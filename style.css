@@ -52,6 +52,7 @@ header{
     font-size: 20px;
     line-height: 23px;
 }
+/* button animation style */
 .glow-on-hover {
     width: 220px;
     height: 50px;
@@ -120,6 +121,7 @@ header{
     width: 100%;
     object-fit: cover;
 }
+
 /* media query for header */
 @media screen  and (max-width:576px){
     body{
@@ -205,6 +207,23 @@ main{
     border: 1px solid #E8E8E8;
     border-radius: 10px;
 }
+
+.one-match{
+    width: 312px;
+    height: 242px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    padding-left: 35px;
+    padding-top: 60px;
+}
+
+.match-time{
+    padding-bottom: 15px;
+}
+
+ .vs{
+    padding: 16px;
+ }
 .match-text{
     padding-left: 15px;
     font-family: 'Poppins';
