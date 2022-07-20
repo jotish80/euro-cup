@@ -1,0 +1,44 @@
+/* ----------upcoming file style--------- */
+
+.card-flag {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    padding: 2rem;
+    text-align: center;
+    height: min-content;
+}
+
+.card h4 {
+    margin: 1rem 0;
+}
+
+.card img {
+    margin: 0 1rem;
+}
+
+.card p {
+    font-size: 1.5rem;
+    color: rgb(103, 100, 100);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.fa-brands {
+    color: #B9B9B9;
+}
+
+.fa-brands:hover {
+    transform: scale(1.5);
+    transition: ease-in-out .3s;
+}
